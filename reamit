@@ -1,0 +1,5 @@
+routes folder contain all the url path
+controllers control the flow of pages
+views contain the template ,html for display of content on pages
+models contain schema for uses and products
+config contain 
