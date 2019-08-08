@@ -1,3 +1,4 @@
 express is node js framework
 nodemon is used for running the server when a containt is change it run the server automatically
 morgan is used for print the http (get,post,put,delete) in cmd
+ejs(embedded JavaScript template) is simple templating language that lets you generate HTML markup with plain JavaScript.

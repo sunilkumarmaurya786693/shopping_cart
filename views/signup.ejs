@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <style>
+body
+{
+    background-color: black;
+
+}
+table
+{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+h1
+{
+    color: white;
+}
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+</head>
+
+<body bgcolor="#eeffff">
+
+<h1 align="center" ><big>College form</big></h1>
+
+    <form action="" method="GET">
+        <table align="center" cellspacing="20" cellpadding="4">
+            <tr>
+                <td>
+                    <label for="username">Name</label></td>
+                <td>
+                    <input type="text" id="username" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Father&apos;s name</label></td>
+                <td>
+                    <input type="text" id="fname" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mname">Mother&apos;s name</label></td>
+                <td>
+                    <input type="text" id="mname" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob" min="15-06-1990" max="15-06-2002">Date of birth</label></td>
+                <td>
+                    <input type="date" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="g">Gender</label> &emsp;</td>
+                <td>
+                    <input type="radio" value="male" name="gender" checked>Male
+
+                    <input type="radio" name="gender" value="female"> Female</td>
+            </tr>
+            <tr>
+                <td><label for="nationality">Nationality</label>
+                </td>
+                <td><input type="text" value="Indian" disabled required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" name="email" value="abc@example.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="github">Git-hub id</label></td>
+                <td>
+                    <input type="url" required id="github"></td>
+            </tr>
+            <tr>
+                
+                <td><label for="Mobilen">Mobile Number</label></td>
+                <td>
+                    <input type="number" min="1000000000" max="9999999999" name="mnumber"></td>
+            </tr>
+            <tr><td colspan="2">
+                <table border="2" cellpadding="10" cellspacing="3">
+                    <caption>
+                        Education
+                    </caption>
+                    <tr>
+                        <th>Standard</th>
+                        <th>percentage</th>
+                        <th>Year</th>
+                        <th>Board</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            High school
+                        </th>
+                        <td>
+                            <input type="number" min="0" max="100">
+                        </td>
+                        <td>
+                            <input type="number" min="1990" max="2030">
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Inter mediate
+                        </th>
+                        <td>
+                            <input type="number" min="0" max="100">
+                        </td>
+                        <td>
+                            <input type="number" min="1990" max="2030">
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Polytechnic
+                        </th>
+                        <td>
+                            <input type="number" min="0" max="100">
+                        </td>
+                        <td>
+                            <input type="number" min="1990" max="2030">
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Btech
+                        </th>
+                        <td>
+                            <input type="number" min="0" max="100">
+                        </td>
+                        <td>
+                            <input type="number" min="1990" max="2030">
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Mtech
+                        </th>
+                        <td>
+                            <input type="number" min="0" max="100">
+                        </td>
+                        <td>
+                            <input type="number" min="1990" max="2030">
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+            <tr>
+            <td><label for="address">Address</label></td>
+            <td><textarea name="address" id="address" cols="30" rows="2" placeholder="max 150 character" maxlength="150"></textarea>
+        </td></tr>
+        <tr>
+            <td><label for="photo">Photo</label></td><td>
+            <input type="file" id="photo"> &emsp;</td>
+            </tr>
+            <tr><td>
+            <label for="signature">Signature</label>
+</td><td>
+            <input type="file" id="signature">
+            </td>
+        </tr>
+        <tr><td>
+            <label for="skill">Skill</label>
+        </td><td>
+            <select name="skill" id="skilll" multiple>
+                <option value="HTML">HTML</option>
+                <option value="css">Css</option>
+                <option value="javascript">Javascript</option>
+                <option value="bootstrap">Bootstrap</option>
+                <option value="php">php</option>
+                <option value="node js">node js</option>
+                <option value="angular js">Angular js</option>
+                <option value="React">React</option>
+                <option value="c/c++">c/c++</option>
+                <option value="java">java</option>
+                <option value="python"> Python</option>
+                <option value="django">Django</option>
+                <option value="Oracle">oracle</option>
+                <option value="machine">machine learning</option>
+            </select>
+            </td></tr>
+            
+            <tr>
+     <td>       <button type="submit"><img src="images/submit.jpg" alt="submit" height="30"></button>
+         </td><td>   <button type="reset"><img src="images/submit1.png" alt="reset" height="30"></button>
+</td></tr>
+
+
+
+
+        </table>
+
+    </form>
+
+
+</body>
+
+</html>

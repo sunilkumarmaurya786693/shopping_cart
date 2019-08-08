@@ -1,0 +1,11 @@
+[33mcommit 7c342626f84526f5560ffcae5ed8692aa6767018[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: sunilkumarmaurya786693 <sunilkumarmaurya786693@gmail.com>
+Date:   Fri Jul 26 20:13:45 2019 +0530
+
+    added router and controller
+
+[33mcommit 000a22d997bc070231ee20e766749fe14cb654f4[m
+Author: sunilkumarmaurya786693 <sunilkumarmaurya786693@gmail.com>
+Date:   Fri Jul 26 20:03:16 2019 +0530
+
+    creating the directory and node js server
